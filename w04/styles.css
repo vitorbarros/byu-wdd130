@@ -1,0 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background-color: #dbd5b5;
+  color: #f67240;
+}
+
+body {
+  margin: 0;
+}
+
+header nav {
+  max-width: 500px;
+  width: 100%;
+}
+
+header nav ul li a {
+    color: #2b9eb3;
+}
+
+.content {
+  max-width: 960px;
+  display: block;
+  margin: 0 auto;
+  background-color: #fcab10;
+}
+
+.home-paragraph-3 {
+  text-align: center;
+}
