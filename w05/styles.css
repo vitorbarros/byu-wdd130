@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Literata");
+
+:root {
+  --main-page-bg-color: #fcab10;
+  --nav-link-color: #2b9eb3;
+
+  --heading-color: #f67240;
+  --heading-bg-color: #dbd5b5;
+
+  --heading-font: Literata, sans-serif;
+  --link-font: Literata, sans-serif;
+  --paragraph-font: Quicksand, sans-serif;
+  --body-font: Quicksand, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background-color: var(--heading-bg-color);
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+  margin: 2.5em 0 0 0;
+  padding: 10px 5px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+}
+
+header nav {
+  max-width: 500px;
+  width: 100%;
+}
+
+header nav ul li a {
+  color: var(--nav-link-color);
+  font-family: var(--link-font);
+  font-size: 1.1em;
+}
+
+.content {
+  max-width: 960px;
+  display: block;
+  margin: 0 auto;
+  background-color: var(--main-page-bg-color);
+  padding: 1em;
+}
+
+.content section p {
+  margin: 5px 0 30px 0;
+}
+
+.home-paragraph-3 {
+  text-align: center;
+}
