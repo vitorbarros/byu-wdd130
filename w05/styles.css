@@ -7,10 +7,10 @@
   --heading-color: #f67240;
   --heading-bg-color: #dbd5b5;
 
-  --heading-font: Literata, sans-serif;
-  --link-font: Literata, sans-serif;
-  --paragraph-font: Quicksand, sans-serif;
-  --body-font: Quicksand, sans-serif;
+  --heading-font: Literata, Arial, sans-serif;
+  --link-font: Literata, Arial, sans-serif;
+  --paragraph-font: Quicksand, Arial, sans-serif;
+  --body-font: Quicksand, Arial, sans-serif;
 }
 
 h1,
@@ -52,6 +52,7 @@ header nav ul li a {
 
 .content section p {
   margin: 5px 0 30px 0;
+  line-height: 25px;
 }
 
 .home-paragraph-3 {
